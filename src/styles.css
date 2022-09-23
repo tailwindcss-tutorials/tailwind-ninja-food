@@ -9,7 +9,7 @@
 */
 
 .card {
-  @apply bg-white rounded-sm overflow-hidden shadow-md relative;
+  @apply bg-white rounded-md overflow-hidden shadow-md relative;
 }
 
 .badge {
