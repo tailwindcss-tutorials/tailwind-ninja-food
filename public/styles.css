@@ -636,6 +636,11 @@ video {
   color: rgb(107 114 128 / var(--tw-text-opacity));
 }
 
+.text-green-500{
+  --tw-text-opacity: 1;
+  color: rgb(34 197 94 / var(--tw-text-opacity));
+}
+
 .text-gray-700{
   --tw-text-opacity: 1;
   color: rgb(55 65 81 / var(--tw-text-opacity));
@@ -644,9 +649,4 @@ video {
 .text-primary{
   --tw-text-opacity: 1;
   color: rgb(255 99 99 / var(--tw-text-opacity));
-}
-
-.text-secondaryTwo{
-  --tw-text-opacity: 1;
-  color: rgb(136 136 131 / var(--tw-text-opacity));
 }

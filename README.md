@@ -6,6 +6,7 @@ Youtube [Tailwind CSS Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkc
   - "build-css": "tailwindcss build src/styles.css -o public/styles.css"
 - The script from the docs:
   - "build-css": "npx tailwindcss -i src/styles.css -o public/styles.css --watch"
+- Note: the extention of live server is not working as expected. Namely the changes are not depiced on the website and we need to re-run the `build-css` cmd. Thus install as instructed the `live-server` globaly and have it running in a terminal.
 
 4. Taiwind Config
 
