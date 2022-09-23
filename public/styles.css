@@ -553,6 +553,10 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.m-4{
+  margin: 1rem;
+}
+
 .mt-12{
   margin-top: 3rem;
 }
@@ -561,8 +565,20 @@ video {
   margin-top: 2rem;
 }
 
+.block{
+  display: block;
+}
+
 .flex{
   display: flex;
+}
+
+.h-32{
+  height: 8rem;
+}
+
+.w-full{
+  width: 100%;
 }
 
 .justify-center{
@@ -581,6 +597,16 @@ video {
 .border-gray-200{
   --tw-border-opacity: 1;
   border-color: rgb(229 231 235 / var(--tw-border-opacity));
+}
+
+.bg-gray-100{
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+}
+
+.object-cover{
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .p-4{
@@ -615,6 +641,11 @@ video {
   line-height: 2rem;
 }
 
+.text-sm{
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
 .font-bold{
   font-weight: 700;
 }
@@ -647,7 +678,42 @@ video {
   color: rgb(255 99 99 / var(--tw-text-opacity));
 }
 
+/* Create a selector for a card. 
+@apply is a directive, and it's a bit like a mixin of sass.
+*/
+
+.card{
+  position: relative;
+  overflow: hidden;
+  border-radius: 0.125rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.badge{
+  position: absolute;
+  top: 0px;
+  margin-left: 0.5rem;
+  margin-top: 0.5rem;
+  border-radius: 9999px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(226 226 213 / var(--tw-bg-opacity));
+  padding: 0.5rem;
+  font-family: Nunito;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  --tw-text-opacity: 1;
+  color: rgb(136 136 131 / var(--tw-text-opacity));
+}
+
 @media (min-width: 640px){
+  .sm\:h-48{
+    height: 12rem;
+  }
+
   .sm\:text-red-500{
     --tw-text-opacity: 1;
     color: rgb(239 68 68 / var(--tw-text-opacity));
