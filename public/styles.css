@@ -561,6 +561,18 @@ video {
   margin-top: 2rem;
 }
 
+.flex{
+  display: flex;
+}
+
+.justify-end{
+  justify-content: flex-end;
+}
+
+.justify-center{
+  justify-content: center;
+}
+
 .border-b{
   border-bottom-width: 1px;
 }
@@ -634,7 +646,7 @@ video {
   color: rgb(255 99 99 / var(--tw-text-opacity));
 }
 
-.text-secondary-200{
+.text-secondaryTwo{
   --tw-text-opacity: 1;
   color: rgb(136 136 131 / var(--tw-text-opacity));
 }

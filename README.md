@@ -1,9 +1,11 @@
-    Youtube [Tailwind CSS Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9gpXORlEHjc5bgnIi5HEGhw)
+Youtube [Tailwind CSS Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9gpXORlEHjc5bgnIi5HEGhw)
 
 2. Setup.
 
 - The istructors script for package.json
   - "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+- The script from the docs:
+  - "build-css": "npx tailwindcss -i src/styles.css -o public/styles.css --watch"
 
 4. Taiwind Config
 
